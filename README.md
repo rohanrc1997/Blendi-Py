@@ -1,10 +1,16 @@
+
+<img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/blendipy.png" style="align:right" width=200px height=50px align="right">
+
 # Blendi-Py
+
+
 In essence, this project is a minimal and light implementation of a Pre-Trained VGG16 Deep Learning Model used for image classification. It is a Keras-based model of the 16-layer network developed and used by the VGG team in the ILSVRC-2014 competition.
 
 The reason for using such a deep neural network is that, after training on a particular recognition task (eg. Object Recognition ),it can also be applied on another domain (eg. Bird Subcategorization) giving state-of-the-art results. This idea has powerful implications, as a model can be pre-trained and then applied on the similar required problem, which in our case, is styling a given 'base image' according to the textures(features)  of another 'reference image' to produce a new image as the output. 
 
 What neural network does is, it tries to extract the “important points” from the both the images, that is it tries to recognize which attributes define the picture and learns from it. These learned attributes are an internal representation of the pre-trained neural network. For instance: 
 
+<img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/samples/comp/test2.jpg">
 
 ## Procedure Involved
 * We first define the loss functions necessary to generate our result, namely the style loss, content loss and the total variational  loss.
@@ -12,7 +18,13 @@ What neural network does is, it tries to extract the “important points” from
 * Then we set our style and content attributes of our model.
 * Then we pass an image to our model (preferably our base image) and optimize it to minimize all the losses we defined above.
 
-
+## Tested Instances
+<img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/samples/comp/test2.jpg">
+<img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/samples/comp/test1.jpg">
+<img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/samples/comp/test3.jpg">
+<img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/samples/comp/test5.jpg">
+<img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/samples/comp/test6.jpg">
+<img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/samples/comp/wgt.jpg">
 
 ### Requirements
 
