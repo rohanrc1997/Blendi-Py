@@ -3,8 +3,11 @@
 
 Along with the Recommended Versions:
 
-Conda 4.3.23 ( Miniconda/ Anaconda )
+Conda 4.3.23 ( Anaconda )
 Python 3.6.2 (64 Bit)
+
+# Refer to the following link for setting up the Deep Learning Environment Properly:
+http://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/
 
 Tested using the following python library packages:
 
