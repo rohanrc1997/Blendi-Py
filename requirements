@@ -1,0 +1,26 @@
+
+*****************************  REQUIREMENTS  ******************************
+
+Along with the Recommended Versions:
+
+Conda 4.3.23 ( Miniconda/ Anaconda )
+Python 3.6.2 (64 Bit)
+
+Tested using the following python library packages:
+
+theano:      0.9.0
+Keras:       2.0.6
+Pillow:      3.1.1
+scipy:       0.19.1
+numpy:       1.13.1
+matplotlib:  2.0.2
+pandas:      0.20.3
+statsmodels: 0.8.0
+sklearn:     0.18.2
+
+
+NOTE: It is mandatory to install (and update) all the above packages for the model to run and execute on your machine.
+
+Also, it is advisable to install OPEN_CL or CUDA backend to utilize your Graphical Processing Unit (GPU) and thereby 
+use it for intensive parallel computation invloved in this project model. Without a GPU support, the memory usage and CPU 
+cycles will be highlyinvolved and occupied while running the L-BFGS optimization, and the performance may not be as expected.
