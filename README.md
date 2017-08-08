@@ -35,7 +35,7 @@ What things you need to install first ?
 
 ### Running and Executing the Blending Utility
 
-*Before moving on forward, please ensure all the required packages are installed as mentioned in the manual above.
+* Before moving on forward, please ensure all the required packages are installed as mentioned in the manual above.
 
 * Download and Extract the Project Repository to a folder. Change the current working directory to the same folder.
 
@@ -52,7 +52,7 @@ Where :
 Hence, it is recommended  to keep it as 1 for most cases, in general.
 * OPTIONAL : -style is used to specify the "style_weight" which determines the extent to which the textures from the reference image are transferred to the base image. It should be optimally kept in the range 1-20. By default, its value is set to 20 (maximum transfer of features / powerful blending ).
 
-*Once the program finishes its execution, the final output image file will be saved in the current working directory with the name :
+* Once the program finishes its execution, the final output image file will be saved in the current working directory with the name :
  "merged_iter_0.jpg"
 
 
@@ -90,4 +90,4 @@ Please read the [contribution guidelines](https://github.com/rohanrc1997/Blendi-
 
 ## Acknowledgments
 
-* (https://github.com/faizankshaikh/) :  For provdinng the L-BFGS Approach for the problem
+* (https://github.com/faizankshaikh/) :  For providing the L-BFGS optimization approach for the problem
