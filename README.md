@@ -90,3 +90,6 @@ Please read the [contribution guidelines](https://github.com/rohanrc1997/Blendi-
 ## Acknowledgments
 
 * (https://github.com/faizankshaikh/) :  For providing the L-BFGS optimization approach for the problem
+
+
+Project by Rohan Chaudhary
