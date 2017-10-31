@@ -1,4 +1,3 @@
-
 <img src="https://github.com/rohanrc1997/Blendi-Py/blob/master/blendipy.png" style="align:right" width=200px height=50px align="right">
 
 # Blendi-Py
