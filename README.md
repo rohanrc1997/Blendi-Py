@@ -3,7 +3,7 @@
 # Blendi-Py
 
 
-In essence, this project is a minimal and light implementation of a Pre-Trained VGG16 Deep Learning Model used for image classification. It is a Keras-based model of the 16-layer network developed and used by the VGG team in the ILSVRC-2014 competition.
+In essence, this project is a minimal implementation of a Pre-Trained VGG16 Deep Learning Model used for image classification. It is a Keras-based model of the 16-layer network developed and used by the VGG team in the ILSVRC-2014 competition.
 
 The reason for using such a deep neural network is that, after training on a particular recognition task (eg. Object Recognition ),it can also be applied on another domain (eg. Bird Subcategorization) giving state-of-the-art results. This idea has powerful implications, as a model can be pre-trained and then applied on the similar required problem, which in our case, is styling a given 'base image' according to the textures(features)  of another 'reference image' to produce a new image as the output. 
 
