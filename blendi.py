@@ -20,18 +20,17 @@ ref_image_path=os.path.join(root_dir,sys.argv[2])
 im_height=400
 im_width=400
 
-style_weight = 20
+style_weight = 30
 content_weight = 0.025
 total_variation_weight = 1.
 
-# print(sys.argv[3]," ",sys.argv[4]," ",len(sys.argv))
 if len(sys.argv)==6 :
     if sys.argv[4]=="-style":
         style_weight=int(sys.argv[5])
 
 print("\n************** Welcome to Blendi-PY ************** \n")
 print("****An L-BFGS and ANN Based Image Styler/Merger**** \n")
-print("Style Intensity Selected : (Defualt: 20) ",style_weight)
+print("Style Intensity Selected : (Default: 30) ",style_weight)
 
 def preprocess_image(image_path):
     img = load_img(image_path, target_size=(im_height, im_width))
@@ -65,11 +64,14 @@ model.summary()
 outputs_dict = dict([(layer.name, layer.output) for layer in model.layers])
 
 def content_loss(base,final):
-	return K.sum(K.square(final-base))
+	loss = K.sum(K.square(final-base))
+	print("Content loss:", loss)
+	return loss
 
 def gram_matrix(x):
 	features=K.batch_flatten(x)
 	gram=K.dot(features,K.transpose(features))
+	print("Gram matrix: ", gram) 
 	return gram
 
 def style_loss(style,final):
