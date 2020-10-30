@@ -20,7 +20,7 @@ ref_image_path=os.path.join(root_dir,sys.argv[2])
 im_height=400
 im_width=400
 
-style_weight = 30
+style_weight = 100
 content_weight = 0.025
 total_variation_weight = 1.
 
