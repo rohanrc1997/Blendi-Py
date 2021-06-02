@@ -9,4 +9,4 @@ notify2==0.3.1
 pygame==1.9.6
 requests==2.24.0
 soupsieve==2.0.1
-urllib3==1.25.11
+urllib3==1.26.5
